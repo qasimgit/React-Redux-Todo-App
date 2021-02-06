@@ -5,3 +5,20 @@
   display: grid;
   place-items: center;
 }
+
+.app_container {
+  height: 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 234, 237);
+  border-radius: 20px;
+  padding-top: 30px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.todoContainer {
+  width: 80%;
+  margin-top: 20px;
+}

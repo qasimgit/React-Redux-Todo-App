@@ -1,0 +1,15 @@
+.todoItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 5px;
+  background-color: white;
+  border-radius: 10px;
+
+  /* background-color: white; */
+}
+
+.todoItem_done {
+  text-decoration: line-through;
+}
